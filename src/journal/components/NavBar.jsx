@@ -23,9 +23,10 @@ export const NavBar = ({drawerWidth}) => {
                 <Grid 
                   container 
                   direction='row' 
-                  justifyContent='space-around'>
+                  justifyContent='space-between'
+                  alignItems='center'>
 
-                      <Typography> JournalApp</Typography>
+                      <Typography variant='h6' noWrap component='div'> JournalApp</Typography>
 
                       <IconButton color='error'>
 
