@@ -34,9 +34,11 @@ export const NoteView = () => {
               placeholder="¿Qué pasó hoy?"
               minRows={5}
               />
-
-
         </Grid>
+
+        {/* ImageGallery */}
+        <ImageGallery/>
+
 
 
     </Grid>
